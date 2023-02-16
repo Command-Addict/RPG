@@ -1,0 +1,2 @@
+tag @e[type=#arrows,nbt={HasBeenShot:0b},tag=!donefor__check_arrow] add donefor__check_arrow
+execute store result entity @e[type=#arrows,tag=this,limit=1] damage double 0.1 run scoreboard players get .power gacha_virtual_data

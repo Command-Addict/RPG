@@ -1,0 +1,39 @@
+{
+    "pools": [
+    {
+        "entries": [
+        {
+            "type": "minecraft:loot_table",
+            "name": "gacha:cube/power",
+            "weight": 1
+        },
+        {
+            "type": "minecraft:loot_table",
+            "name": "gacha:cube/speed",
+            "weight": 1
+        },
+        {
+            "type": "minecraft:loot_table",
+            "name": "gacha:cube/hp",
+            "weight": 1
+        },
+        {
+            "type": "minecraft:loot_table",
+            "name": "gacha:cube/critical",
+            "weight": 1
+        },
+        {
+            "type": "minecraft:loot_table",
+            "name": "gacha:cube/critical_damage",
+            "weight": 1
+        },
+        {
+            "type": "minecraft:loot_table",
+            "name": "gacha:cube/knockback_resistance",
+            "weight": 1
+        }
+        ],
+        "rolls": 1.0
+    }
+    ]
+}

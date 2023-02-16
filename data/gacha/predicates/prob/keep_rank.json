@@ -1,0 +1,21 @@
+{
+    "condition": "alternative",
+    "terms": [
+    {             
+        "condition": "reference",
+        "name": "gacha:prob/keep_rank/rare"
+    },
+    {             
+        "condition": "reference",
+        "name": "gacha:prob/keep_rank/epic"
+    },
+    {             
+        "condition": "reference",
+        "name": "gacha:prob/keep_rank/unique"
+    },
+    {             
+        "condition": "reference",
+        "name": "gacha:prob/keep_rank/legend"
+    }
+    ]
+}

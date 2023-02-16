@@ -1,0 +1,22 @@
+{
+    "pools": [
+    {
+        "rolls":1,
+        "entries": [
+        {
+            "type":"item",
+            "name":"minecraft:cod",
+            "weight":1,
+            "functions": [
+            {"tag": "{id:0, ui:'Damage', prefix:'+', suffix:''}","function": "set_nbt"},
+            {"tag": "{range:[0.5f, 1.5f]}","conditions": [{"scores": {"gacha_item_rank":-1},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[1.0f, 3.0f]}","conditions": [{"scores": {"gacha_item_rank": 0},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[2.0f, 6.0f]}","conditions": [{"scores": {"gacha_item_rank": 1},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[3.0f, 9.0f]}","conditions": [{"scores": {"gacha_item_rank": 2},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[6.0f, 12.0f]}","conditions": [{"scores": {"gacha_item_rank": 3},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"}
+            ]
+        }
+        ]
+    }
+    ]
+}

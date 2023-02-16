@@ -1,0 +1,20 @@
+{
+    "pools": [
+    {
+        "rolls":1,
+        "entries": [
+        {
+            "type":"item",
+            "name":"minecraft:cod",
+            "weight":1,
+            "functions": [
+            {"tag": "{starforce:{max:5,level:0}}","conditions": [{"predicate": {"equipment": {"mainhand":{"nbt": "{rank:0}"}}},"condition": "entity_properties","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{starforce:{max:10,level:0}}","conditions": [{"predicate": {"equipment": {"mainhand":{"nbt": "{rank:1}"}}},"condition": "entity_properties","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{starforce:{max:15,level:0}}","conditions": [{"predicate": {"equipment": {"mainhand":{"nbt": "{rank:2}"}}},"condition": "entity_properties","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{starforce:{max:20,level:0}}","conditions": [{"predicate": {"equipment": {"mainhand":{"nbt": "{rank:3}"}}},"condition": "entity_properties","entity": "this"}],"function": "set_nbt"}
+            ]
+        }
+        ]
+    }
+    ]
+}

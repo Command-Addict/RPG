@@ -1,0 +1,19 @@
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "rpg_bow_used":1
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "rpg_crossbow_used":1
+            }
+        }
+    ]
+}

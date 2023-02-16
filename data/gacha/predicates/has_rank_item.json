@@ -1,0 +1,29 @@
+{
+    "condition": "alternative",
+    "terms": [
+    {"predicate": {"equipment": {"chest": {"tag": "gacha:target","nbt": "{rank:0}"}}},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"equipment": {"chest": {"tag": "gacha:target","nbt": "{rank:1}"}}},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"equipment": {"chest": {"tag": "gacha:target","nbt": "{rank:2}"}}},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"equipment": {"chest": {"tag": "gacha:target","nbt": "{rank:3}"}}},"condition": "entity_properties","entity": "this"},
+
+    {"predicate": {"equipment": {"feet": {"tag": "gacha:target","nbt": "{rank:0}"}}},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"equipment": {"feet": {"tag": "gacha:target","nbt": "{rank:1}"}}},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"equipment": {"feet": {"tag": "gacha:target","nbt": "{rank:2}"}}},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"equipment": {"feet": {"tag": "gacha:target","nbt": "{rank:3}"}}},"condition": "entity_properties","entity": "this"},
+
+    {"predicate": {"equipment": {"head": {"tag": "gacha:target","nbt": "{rank:0}"}}},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"equipment": {"head": {"tag": "gacha:target","nbt": "{rank:1}"}}},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"equipment": {"head": {"tag": "gacha:target","nbt": "{rank:2}"}}},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"equipment": {"head": {"tag": "gacha:target","nbt": "{rank:3}"}}},"condition": "entity_properties","entity": "this"},
+
+    {"predicate": {"equipment": {"legs": {"tag": "gacha:target","nbt": "{rank:0}"}}},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"equipment": {"legs": {"tag": "gacha:target","nbt": "{rank:1}"}}},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"equipment": {"legs": {"tag": "gacha:target","nbt": "{rank:2}"}}},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"equipment": {"legs": {"tag": "gacha:target","nbt": "{rank:3}"}}},"condition": "entity_properties","entity": "this"},
+
+    {"predicate": {"equipment": {"mainhand": {"tag": "gacha:target","nbt": "{rank:0}"}}},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"equipment": {"mainhand": {"tag": "gacha:target","nbt": "{rank:1}"}}},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"equipment": {"mainhand": {"tag": "gacha:target","nbt": "{rank:2}"}}},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"equipment": {"mainhand": {"tag": "gacha:target","nbt": "{rank:3}"}}},"condition": "entity_properties","entity": "this"}
+    ]
+}

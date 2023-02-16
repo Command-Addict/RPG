@@ -1,0 +1,25 @@
+[
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "tag": "gacha:target"
+            },
+            "offhand": {
+                "nbt": "{cube:0}"
+            }
+        }
+    }
+},
+{
+    "condition": "alternative",
+    "terms": [
+    {"predicate": {"equipment": {"mainhand": {"nbt": "{rank:0}"}}},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"equipment": {"mainhand": {"nbt": "{rank:1}"}}},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"equipment": {"mainhand": {"nbt": "{rank:2}"}}},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"equipment": {"mainhand": {"nbt": "{rank:3}"}}},"condition": "entity_properties","entity": "this"}
+    ]
+}
+]

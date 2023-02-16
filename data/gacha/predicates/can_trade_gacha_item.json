@@ -1,0 +1,17 @@
+[
+{
+    "condition": "alternative",
+    "terms": [
+    {"predicate": {"nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\"}}"},"condition": "entity_properties","entity": "this"},
+    {"predicate": {"nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"},"condition": "entity_properties","entity": "this"}
+    ]
+},
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "nbt":"{VillagerData:{level:5}}"
+    }
+}
+]

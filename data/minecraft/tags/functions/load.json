@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "gacha:load",
+        "bow:load",
+
+        "random:private/setup"
+    ]
+}

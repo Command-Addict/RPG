@@ -1,0 +1,92 @@
+{
+    "condition": "alternative",
+    "terms": [
+    {             
+        "condition": "inverted",      
+        "term": {
+            "condition": "alternative",
+            "terms": [
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "equipment": {
+                            "mainhand": {
+                                "nbt": "{rank:0}"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "random_chance",
+                    "chance": 0.15
+                }
+            }
+            ]
+        }
+    },
+    {             
+        "condition": "inverted",      
+        "term": {
+            "condition": "alternative",
+            "terms": [
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "equipment": {
+                            "mainhand": {
+                                "nbt": "{rank:1}"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "random_chance",
+                    "chance": 0.035
+                }
+            }
+            ]
+        }
+    },
+    {             
+        "condition": "inverted",      
+        "term": {
+            "condition": "alternative",
+            "terms": [
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "equipment": {
+                            "mainhand": {
+                                "nbt": "{rank:2}"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "random_chance",
+                    "chance": 0.012
+                }
+            }
+            ]
+        }
+    }
+    ]
+}
