@@ -8,4 +8,4 @@ data modify storage gacha:ui name set from entity @s HandItems[1].tag.ui
 function gacha:utils/private/use_cube/ui/rank
 
 loot replace entity @s weapon.offhand fish gacha:starforce_data ~ ~ ~
-data modify entity @s HandItems[0].tag.starforce set from entity @s HandItems[1].tag.starforce
+data modify entity @s HandItems[0].tag.starforce.max set from entity @s HandItems[1].tag.starforce.max

@@ -3,8 +3,8 @@ import sys, uuid
 path = "/".join(sys.argv[0].split('\\')[:-1])
 util_path = "/".join(sys.argv[0].split('\\')[:-5])
 
-def run(name, attribute, max, i, more):
-    form = """execute if score .value gacha_virtual_data matches %d.. run attribute @s %s modifier add %s "gacha starforce %s-%f" %f multiply_base
+def run(name, attribute, max, i, type, more):
+    form = """execute if score .value gacha_virtual_data matches %d.. run attribute @s %s modifier add %s "gacha starforce %s-%f" %f %s
 execute if score .value gacha_virtual_data matches %d.. run scoreboard players remove .value gacha_virtual_data %d
 """
 
@@ -21,7 +21,7 @@ execute if score .value gacha_virtual_data matches %d.. run scoreboard players r
     s = 0
     while s < max:
         UUID = str(uuid.uuid4())
-        r = form%(i, attribute, UUID, name, i/scale, i/scale, i, i) + r
+        r = form%(i, attribute, UUID, name, i/scale, i/scale, type, i, i) + r
         f.write("attribute @s %s modifier remove %s\n"%(attribute, UUID))
         s += i
         i += i
@@ -37,8 +37,8 @@ execute if score .value gacha_virtual_data matches %d.. run scoreboard players r
     f.close()
 
 li = (
-    ("armor", "minecraft:generic.max_health", 8, 0.005, None),
-    ("mainhand", "minecraft:generic.attack_damage", 1, 0.005, None),
+    ("armor", "minecraft:generic.max_health", 80, 0.1, "add", None),
+    ("mainhand", "minecraft:generic.attack_damage", 10, 0.05, "add", None),
 )
 
 f = open(util_path+'/utils/reset_starforce.mcfunction','w')

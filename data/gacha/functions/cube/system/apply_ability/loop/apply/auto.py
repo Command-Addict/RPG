@@ -3,8 +3,8 @@ import sys, uuid
 path = "/".join(sys.argv[0].split('\\')[:-1])
 util_path = "/".join(sys.argv[0].split('\\')[:-6])
 
-def run(name, attribute, max, i, more):
-    form = """execute if score .value gacha_virtual_data matches %d.. run attribute @s %s modifier add %s "gacha ability %s-%f" %f add
+def run(name, attribute, max, i, type, more):
+    form = """execute if score .value gacha_virtual_data matches %d.. run attribute @s %s modifier add %s "gacha ability %s-%f" %f %s
 execute if score .value gacha_virtual_data matches %d.. run scoreboard players remove .value gacha_virtual_data %d
 """
 
@@ -21,7 +21,7 @@ execute if score .value gacha_virtual_data matches %d.. run scoreboard players r
     s = 0
     while s < max:
         UUID = str(uuid.uuid4())
-        r = form%(i, attribute, UUID, name, i/scale, i/scale, i, i) + r
+        r = form%(i, attribute, UUID, name, i/scale, i/scale, type, i, i) + r
         f.write("attribute @s %s modifier remove %s\n"%(attribute, UUID))
         s += i
         i += i
@@ -37,11 +37,11 @@ execute if score .value gacha_virtual_data matches %d.. run scoreboard players r
     f.close()
 
 li = (
-    ("power", "minecraft:generic.attack_damage", 180, 0.1, None),
-    ("speed", "minecraft:generic.movement_speed", 0.25, 0.00013, None),
-    ("hp", "minecraft:generic.max_health", 180, 0.1, None),
-    #("crit", "minecraft:generic.attack_damage", 1024, 0.1, None)
-    ("knockback_resistance", "minecraft:generic.knockback_resistance", 0.6, 0.001, None),
+    ("power", "minecraft:generic.attack_damage", 1.8, 0.001, "multiply_base", None),
+    ("speed", "minecraft:generic.movement_speed", 0.25, 0.00013, "add", None),
+    ("hp", "minecraft:generic.max_health", 1.8, 0.001, "multiply_base", None),
+    #("crit", "minecraft:generic.attack_damage", 1024, 0.1, "add", None)
+    ("knockback_resistance", "minecraft:generic.knockback_resistance", 0.6, 0.001, "add", None),
 )
 
 f = open(util_path+'/utils/reset_abilities.mcfunction','w')

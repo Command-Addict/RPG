@@ -9,7 +9,7 @@
             "name":"minecraft:structure_block",
             "functions": [
                 {"count": {"min":4, "max":8},"function": "set_count"},
-                {"tag": "{cube:0,display:{Name:'{\"text\":\"Potential Cube\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Swap hands to use\",\"color\":\"gray\",\"italic\":false}']},Enchantments:[{}]}", "function": "set_nbt"}
+                {"tag": "{gacha:0,cube:0,display:{Name:'{\"text\":\"Potential cube\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Swap hands to use\",\"color\":\"gray\",\"italic\":false}']},Enchantments:[{}]}", "function": "set_nbt"}
             ]
         },
         {
@@ -18,7 +18,7 @@
             "name":"minecraft:mojang_banner_pattern",
             "functions": [
                 {"count": 1.0,"function": "set_count"},
-                {"tag": "{scroll:0,display:{Name:'{\"text\":\"Potential scroll\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Swap hands to use\",\"color\":\"gray\",\"italic\":false}']},Enchantments:[{}]}", "function": "set_nbt"}
+                {"tag": "{gacha:0,scroll:0,display:{Name:'{\"text\":\"Potential scroll\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Swap hands to use\",\"color\":\"gray\",\"italic\":false}']},Enchantments:[{}]}", "function": "set_nbt"}
             ]
         }
         ]

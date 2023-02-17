@@ -1,9 +1,9 @@
 tag @s remove has_starforce__mainhand
-attribute @s minecraft:generic.attack_damage modifier remove 41c7b4ab-79e9-4257-9456-7f35ef754c97
-attribute @s minecraft:generic.attack_damage modifier remove c99eeb43-7830-4a65-8f71-22cc91de9589
-attribute @s minecraft:generic.attack_damage modifier remove c96e96e9-7494-4eb6-a58a-a41ac9d507ed
-attribute @s minecraft:generic.attack_damage modifier remove 5f331231-0c95-4c14-9bb0-e8dc2bba575d
-attribute @s minecraft:generic.attack_damage modifier remove b58825fd-923b-4353-87a9-c5153770f07c
-attribute @s minecraft:generic.attack_damage modifier remove 6ccbbdf4-a2bf-42f8-9037-5807259d5e74
-attribute @s minecraft:generic.attack_damage modifier remove 9777be35-a12e-4f2a-9e9b-719d1decc3c7
-attribute @s minecraft:generic.attack_damage modifier remove df0ae6ac-8307-4fa7-ab5d-962606b1a34d
+attribute @s minecraft:generic.attack_damage modifier remove e84cb737-ec8e-4b12-94bb-954ded20c99f
+attribute @s minecraft:generic.attack_damage modifier remove e4c21528-db62-4509-b282-d1a456fb250f
+attribute @s minecraft:generic.attack_damage modifier remove 90a699c8-7260-4979-9f3b-24f9250f998f
+attribute @s minecraft:generic.attack_damage modifier remove 9370303e-d66c-4de0-bbcd-1b6d5fe3b1fe
+attribute @s minecraft:generic.attack_damage modifier remove 077c1e68-1b5c-46d5-b01b-9d8d29f320c8
+attribute @s minecraft:generic.attack_damage modifier remove e27a8f02-50cc-46d4-818d-024350aea93a
+attribute @s minecraft:generic.attack_damage modifier remove 974f20f7-5d49-4bad-a647-dfa1d2127e0b
+attribute @s minecraft:generic.attack_damage modifier remove dc8e196c-a1a9-4f0f-97f9-8f9c1ca5ee69

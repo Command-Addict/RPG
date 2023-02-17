@@ -1,12 +1,11 @@
 tag @s remove has_starforce__armor
-attribute @s minecraft:generic.max_health modifier remove 571287d6-8daa-4c3a-9a9f-f233517d0acb
-attribute @s minecraft:generic.max_health modifier remove fa14a754-8d23-4536-9a0f-e0f703d26f93
-attribute @s minecraft:generic.max_health modifier remove dacefc4a-e299-4914-997a-beb6ee89468c
-attribute @s minecraft:generic.max_health modifier remove 74c416ad-3ed4-4a99-ac86-04c422a76beb
-attribute @s minecraft:generic.max_health modifier remove 3afd555b-7404-44fb-86f3-8a6ea40d84dc
-attribute @s minecraft:generic.max_health modifier remove 5894a65f-404f-4617-a098-efef98ddbb53
-attribute @s minecraft:generic.max_health modifier remove 2fb49475-733c-43d3-88fe-467e9cff8916
-attribute @s minecraft:generic.max_health modifier remove 5a53fda6-440a-401c-97da-acbe78f50ed5
-attribute @s minecraft:generic.max_health modifier remove b6d8439a-b021-4a74-9259-6d87b9fb233e
-attribute @s minecraft:generic.max_health modifier remove cfb3c092-e910-48db-ae90-f7a955037717
-attribute @s minecraft:generic.max_health modifier remove 66bcad82-1b72-48b6-9a3e-2c58ce7c23ec
+attribute @s minecraft:generic.max_health modifier remove 23566ca2-101e-4f2f-80d1-fca872b6275c
+attribute @s minecraft:generic.max_health modifier remove 17f2d512-e00a-4ee1-b169-ec0ca6415383
+attribute @s minecraft:generic.max_health modifier remove 337b6628-c3c7-4393-8e3d-9381ff977c0b
+attribute @s minecraft:generic.max_health modifier remove b01f9386-4e71-4bba-9945-36f9b74384be
+attribute @s minecraft:generic.max_health modifier remove 97614ec9-28c4-4afa-9bbc-67101f2d929d
+attribute @s minecraft:generic.max_health modifier remove b27ebdb8-7f31-41e6-81ca-da5c3ed0bd57
+attribute @s minecraft:generic.max_health modifier remove e1303ab1-4942-44ad-a7b6-5d7c7508fd41
+attribute @s minecraft:generic.max_health modifier remove d88b3ef7-b205-4761-8f1e-07aea5378f68
+attribute @s minecraft:generic.max_health modifier remove 0660e427-bb5a-40e5-af49-6355aa9aa619
+attribute @s minecraft:generic.max_health modifier remove f1b7055b-5664-447c-b779-1b6ef7b830be
