@@ -1,0 +1,2 @@
+execute at @s run loot replace entity @e[type=armor_stand,tag=rpg_utils] weapon.offhand fish rpg:level/area ~ ~ ~
+execute as @e[type=armor_stand,tag=rpg_utils] run function rpg:utils/private/get_level_by_distance

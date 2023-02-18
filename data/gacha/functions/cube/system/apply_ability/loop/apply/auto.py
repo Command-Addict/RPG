@@ -39,8 +39,7 @@ execute if score .value gacha_virtual_data matches %d.. run scoreboard players r
 li = (
     ("power", "minecraft:generic.attack_damage", 1.8, 0.001, "multiply_base", None),
     ("speed", "minecraft:generic.movement_speed", 0.25, 0.00013, "add", None),
-    ("hp", "minecraft:generic.max_health", 1.8, 0.001, "multiply_base", None),
-    #("crit", "minecraft:generic.attack_damage", 1024, 0.1, "add", None)
+    ("hp", "minecraft:generic.max_health", 3.0, 0.001, "multiply_base", None),
     ("knockback_resistance", "minecraft:generic.knockback_resistance", 0.6, 0.001, "add", None),
 )
 

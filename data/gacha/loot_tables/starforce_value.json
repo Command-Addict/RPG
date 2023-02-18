@@ -25,8 +25,9 @@
             {"tag": "{value: 78}","conditions": [{"scores": {"gacha_item_starforce_level": 14},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
             {"tag": "{value: 90}","conditions": [{"scores": {"gacha_item_starforce_level": 15},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
             {"tag": "{value:102}","conditions": [{"scores": {"gacha_item_starforce_level": 16},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
-            {"tag": "{value:130}","conditions": [{"scores": {"gacha_item_starforce_level": 18},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
-            {"tag": "{value:163}","conditions": [{"scores": {"gacha_item_starforce_level": 19},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{value:124}","conditions": [{"scores": {"gacha_item_starforce_level": 17},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{value:146}","conditions": [{"scores": {"gacha_item_starforce_level": 18},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{value:172}","conditions": [{"scores": {"gacha_item_starforce_level": 19},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
             {"tag": "{value:200}","conditions": [{"scores": {"gacha_item_starforce_level": 20},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"}
             ]
         }

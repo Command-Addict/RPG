@@ -1,11 +1,11 @@
 tag @s remove has_ability__knockback_resistance
-attribute @s minecraft:generic.knockback_resistance modifier remove dd4b4e6e-ccc4-4123-adea-9595e22357a1
-attribute @s minecraft:generic.knockback_resistance modifier remove 83cb77ae-e7b1-4299-82f6-b444ece44d0a
-attribute @s minecraft:generic.knockback_resistance modifier remove 0b5c549f-b770-4990-ba8a-e7e07fd8d92b
-attribute @s minecraft:generic.knockback_resistance modifier remove ef9547e8-d294-4324-bee3-ccc42f3fd6e4
-attribute @s minecraft:generic.knockback_resistance modifier remove 743b0035-3f5b-46b1-b91f-8c1cc375a9b8
-attribute @s minecraft:generic.knockback_resistance modifier remove 7c1e13d5-49b2-431a-8fb1-aaeef8274f5e
-attribute @s minecraft:generic.knockback_resistance modifier remove 5f19ddb6-8766-474e-8a7a-59b0d09d680e
-attribute @s minecraft:generic.knockback_resistance modifier remove f0fe1ff2-0fb2-48e1-b3b3-4cdb9162aa8f
-attribute @s minecraft:generic.knockback_resistance modifier remove 426e8867-3fa7-4fec-b6cf-e54b720971c9
-attribute @s minecraft:generic.knockback_resistance modifier remove ac12c04c-7fbb-4077-bc37-a52eb6b35b2a
+attribute @s minecraft:generic.knockback_resistance modifier remove aa03c4bd-c322-41e7-9836-29da49b7af0c
+attribute @s minecraft:generic.knockback_resistance modifier remove f3605ef6-67fe-4816-b982-fc48d2f6969d
+attribute @s minecraft:generic.knockback_resistance modifier remove 877571b5-b303-4d30-b619-a77cb68ee4a9
+attribute @s minecraft:generic.knockback_resistance modifier remove f44c7bcb-0a56-43d3-ad9b-7ce1d9204c28
+attribute @s minecraft:generic.knockback_resistance modifier remove 5aefcb9c-a2df-4e27-be65-3c006ba91fb7
+attribute @s minecraft:generic.knockback_resistance modifier remove 6fce42c3-8666-44e6-97ed-874c69b7260c
+attribute @s minecraft:generic.knockback_resistance modifier remove cfd141c5-5838-488c-a111-0c45041797c8
+attribute @s minecraft:generic.knockback_resistance modifier remove 1be561f9-55ee-4f07-b245-56082fb8f94a
+attribute @s minecraft:generic.knockback_resistance modifier remove 719f9a04-6f64-41eb-9ca4-da5ed4167c1f
+attribute @s minecraft:generic.knockback_resistance modifier remove a0f051c1-0db7-4ce2-b99f-bb8ef3c547dc

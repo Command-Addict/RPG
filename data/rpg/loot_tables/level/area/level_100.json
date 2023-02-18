@@ -1,0 +1,17 @@
+{
+    "pools": [
+    {
+        "rolls":1,
+        "entries": [
+        {
+            "type":"item",
+            "name":"minecraft:cod",
+            "weight":1,
+            "functions": [
+            {"tag": "{range:[  100,  100]}","function": "set_nbt"}
+            ]
+        }
+        ]
+    }
+    ]
+}

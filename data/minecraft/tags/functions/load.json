@@ -2,7 +2,7 @@
     "replace": false,
     "values": [
         "gacha:load",
-        "bow:load",
+        "rpg:load",
 
         "random:private/setup"
     ]

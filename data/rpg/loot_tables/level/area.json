@@ -1,0 +1,45 @@
+{
+    "pools": [
+    {
+        "rolls":1,
+        "entries": [
+        {
+            "type": "loot_table",
+            "conditions": [
+            {
+                "condition": "alternative",
+                "terms": [
+                {"condition": "location_check","predicate": {"dimension": "minecraft:overworld"}}
+                ]
+            }
+            ],
+            "name": "rpg:level/area/by_distance"
+        },
+        {
+            "type": "loot_table",
+            "conditions": [
+            {
+                "condition": "alternative",
+                "terms": [
+                {"condition": "location_check","predicate": {"dimension": "minecraft:the_nether"}}
+                ]
+            }
+            ],
+            "name": "rpg:level/area/level_100"
+        },
+        {
+            "type": "loot_table",
+            "conditions": [
+            {
+                "condition": "alternative",
+                "terms": [
+                {"condition": "location_check","predicate": {"dimension": "minecraft:the_end"}}
+                ]
+            }
+            ],
+            "name": "rpg:level/area/level_200"
+        }
+        ]
+    }
+    ]
+}

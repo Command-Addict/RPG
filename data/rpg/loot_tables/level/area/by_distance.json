@@ -1,0 +1,43 @@
+{
+    "pools": [
+    {
+        "rolls":1,
+        "entries": [
+        {
+            "type":"item",
+            "name":"minecraft:cod",
+            "weight":1,
+            "functions": [
+            {"tag": "{range:[  1,  10]}","conditions": [{"scores": {"rpg_virtual_data": {"min":    0, "max":   64}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[  5,  15]}","conditions": [{"scores": {"rpg_virtual_data": {"min":   65, "max":  128}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[ 10,  20]}","conditions": [{"scores": {"rpg_virtual_data": {"min":  129, "max":  192}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[ 15,  25]}","conditions": [{"scores": {"rpg_virtual_data": {"min":  193, "max":  256}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[ 20,  30]}","conditions": [{"scores": {"rpg_virtual_data": {"min":  257, "max":  320}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[ 25,  35]}","conditions": [{"scores": {"rpg_virtual_data": {"min":  321, "max":  384}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[ 30,  40]}","conditions": [{"scores": {"rpg_virtual_data": {"min":  385, "max":  448}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[ 35,  45]}","conditions": [{"scores": {"rpg_virtual_data": {"min":  449, "max":  512}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[ 40,  50]}","conditions": [{"scores": {"rpg_virtual_data": {"min":  513, "max":  576}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[ 45,  55]}","conditions": [{"scores": {"rpg_virtual_data": {"min":  577, "max":  640}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[ 50,  60]}","conditions": [{"scores": {"rpg_virtual_data": {"min":  641, "max":  704}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[ 55,  65]}","conditions": [{"scores": {"rpg_virtual_data": {"min":  705, "max":  768}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[ 60,  70]}","conditions": [{"scores": {"rpg_virtual_data": {"min":  769, "max":  832}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[ 65,  75]}","conditions": [{"scores": {"rpg_virtual_data": {"min":  833, "max":  896}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[ 70,  80]}","conditions": [{"scores": {"rpg_virtual_data": {"min":  897, "max":  960}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[ 75,  85]}","conditions": [{"scores": {"rpg_virtual_data": {"min":  961, "max": 1024}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[ 80,  90]}","conditions": [{"scores": {"rpg_virtual_data": {"min": 1025, "max": 1088}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[ 85,  95]}","conditions": [{"scores": {"rpg_virtual_data": {"min": 1089, "max": 1152}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[ 90, 100]}","conditions": [{"scores": {"rpg_virtual_data": {"min": 1153, "max": 1216}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[ 95, 110]}","conditions": [{"scores": {"rpg_virtual_data": {"min": 1217, "max": 1280}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[100, 130]}","conditions": [{"scores": {"rpg_virtual_data": {"min": 1281, "max": 1344}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[115, 150]}","conditions": [{"scores": {"rpg_virtual_data": {"min": 1345, "max": 1408}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[135, 180]}","conditions": [{"scores": {"rpg_virtual_data": {"min": 1409, "max": 1472}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[160, 210]}","conditions": [{"scores": {"rpg_virtual_data": {"min": 1473, "max": 1600}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[190, 250]}","conditions": [{"scores": {"rpg_virtual_data": {"min": 1601, "max": 1664}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[220, 250]}","conditions": [{"scores": {"rpg_virtual_data": {"min": 1665, "max": 1728}},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"},
+            {"tag": "{range:[250, 250]}","conditions": [{"scores": {"rpg_virtual_data": {"min": 1729             }},"condition": "entity_scores","entity": "this"}],"function": "set_nbt"}
+            ]
+        }
+        ]
+    }
+    ]
+}
