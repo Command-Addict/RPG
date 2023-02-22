@@ -1,0 +1,15 @@
+[
+{
+    "condition": "entity_scores",
+    "entity": "this",
+    "scores": {
+        "rpg_entity_level":{
+            "min":100
+        }
+    }
+},
+{
+    "condition": "random_chance",
+    "chance": 0.05
+}
+]

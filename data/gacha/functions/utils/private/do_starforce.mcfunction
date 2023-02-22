@@ -19,8 +19,9 @@ execute store result score .temp gacha_virtual_data run data get entity @s HandI
 execute if score @s random_data matches 0.. if score @s random_data < .temp gacha_virtual_data run function gacha:utils/private/do_starforce/action/level_down
 scoreboard players operation @s random_data -= .temp gacha_virtual_data
 #break
+scoreboard players set .destory gacha_virtual_data 0
 execute store result score .temp gacha_virtual_data run data get entity @s HandItems[1].tag.percent[3]
-execute if score @s random_data matches 0.. if score @s random_data < .temp gacha_virtual_data run function gacha:utils/private/do_starforce/action/break
+execute if score @s random_data matches 0.. if score @s random_data < .temp gacha_virtual_data run function gacha:utils/private/do_starforce/action/destory
 scoreboard players operation @s random_data -= .temp gacha_virtual_data
 
 #ui

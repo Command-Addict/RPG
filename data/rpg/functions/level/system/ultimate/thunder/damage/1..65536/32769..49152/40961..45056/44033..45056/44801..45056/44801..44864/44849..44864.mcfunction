@@ -1,0 +1,4 @@
+execute if score .value rpg_virtual_data matches 44849..44852 run function rpg:level/system/ultimate/thunder/damage/1..65536/32769..49152/40961..45056/44033..45056/44801..45056/44801..44864/44849..44864/44849..44852
+execute if score .value rpg_virtual_data matches 44853..44856 run function rpg:level/system/ultimate/thunder/damage/1..65536/32769..49152/40961..45056/44033..45056/44801..45056/44801..44864/44849..44864/44853..44856
+execute if score .value rpg_virtual_data matches 44857..44860 run function rpg:level/system/ultimate/thunder/damage/1..65536/32769..49152/40961..45056/44033..45056/44801..45056/44801..44864/44849..44864/44857..44860
+execute if score .value rpg_virtual_data matches 44861..44864 run function rpg:level/system/ultimate/thunder/damage/1..65536/32769..49152/40961..45056/44033..45056/44801..45056/44801..44864/44849..44864/44861..44864

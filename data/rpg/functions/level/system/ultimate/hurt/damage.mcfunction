@@ -1,0 +1,1 @@
+function rpg:level/system/ultimate/hurt/damage/1..65536

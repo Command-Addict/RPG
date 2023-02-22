@@ -6,5 +6,7 @@ item replace entity @s weapon.offhand from entity @e[type=armor_stand,tag=gacha_
 
 clear @s #gacha:items{cube:0} 1
 
+execute at @s run function gacha:cube/system/cube/loop/sound
+
 tag @s remove waitfor__gacha_cube
 execute as @e[tag=waitfor__gacha_cube,limit=1] run function gacha:cube/system/cube/loop

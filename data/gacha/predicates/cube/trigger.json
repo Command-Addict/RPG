@@ -26,7 +26,7 @@
     "condition": "entity_scores",
     "entity": "this",
     "scores": {
-        "gacha_ready": 2
+        "gacha_ready": 1
     }
 }
 ]

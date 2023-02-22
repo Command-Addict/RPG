@@ -1,0 +1,1 @@
+function rpg:level/system/ultimate/thunder/damage/1..65536

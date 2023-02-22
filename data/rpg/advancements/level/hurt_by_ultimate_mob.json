@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "hurt": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "source_entity": {
+                            "nbt": "{Tags:[\"rpg_ultimate\"]}"
+                        },
+                        "is_magic": false
+                    }
+                }
+            }
+        }
+    }
+}
