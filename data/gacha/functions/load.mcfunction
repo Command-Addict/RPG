@@ -18,8 +18,5 @@ data merge storage gacha:starforce {ui_list:['{"text":"★","color":"gold"}','{"
 execute in gacha:cmd_addict run forceload add 0 0
 execute in gacha:cmd_addict run setblock 0 0 0 acacia_sign
 
-# option
-#execute unless score .loaded_village gacha_virtual_data matches 1 run function gacha:load/village
-
 tellraw @a [{"text":"┌ ","color":"gray"}, {"text":"RPG Datapack","color":"green"}]
 tellraw @a [{"text":"└ ","color":"gray"}, {"text":"Made by Command_Addict","color": "gray"}]
