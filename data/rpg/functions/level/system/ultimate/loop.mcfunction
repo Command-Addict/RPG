@@ -3,7 +3,7 @@ execute unless score @s rpg_ultimate_grap_delay matches 1.. if entity @p[tag=rpg
 scoreboard players remove @s[scores={rpg_ultimate_grap_delay=1..}] rpg_ultimate_grap_delay 1
 
 execute store result score .health rpg_virtual_data run data get entity @s Health 20
-execute if score @s rpg_entity_max_health >= health rpg_virtual_data unless score @s rpg_ultimate_thunder_delay matches 1.. at @p[tag=rpg_ultimate_target] run function rpg:level/system/ultimate/loop/thunder
+execute if score @s rpg_entity_max_health >= .health rpg_virtual_data unless score @s rpg_ultimate_thunder_delay matches 1.. at @p[tag=rpg_ultimate_target] run function rpg:level/system/ultimate/loop/thunder
 scoreboard players remove @s[scores={rpg_ultimate_thunder_delay=1..}] rpg_ultimate_thunder_delay 1
 
 tag @e[tag=rpg_ultimate_hidden,distance=..128] remove rpg_ultimate_hidden

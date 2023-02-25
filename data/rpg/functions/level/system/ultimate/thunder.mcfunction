@@ -1,8 +1,9 @@
 execute store result score .percent rpg_virtual_data run data get entity @s data.percent
 
-tag @s add this
+tag @s add rpg_source
 execute positioned ~-4 ~-4 ~-4 as @a[dx=9,dy=9,dz=9] run tag @s add target
 execute as @p[tag=target] run function rpg:level/system/ultimate/thunder/loop
+tag @a[tag=target] remove target
 
 particle minecraft:flash ~ ~ ~ 0 0 0 0 1 force
 playsound minecraft:entity.firework_rocket.blast ambient @a ~ ~ ~ 3 0 0

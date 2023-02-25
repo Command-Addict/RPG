@@ -1,4 +1,0 @@
-execute if score .value rpg_virtual_data matches 63493 run damage @s 6349.300000 minecraft:lightning_bolt by @e[tag=this,limit=1]
-execute if score .value rpg_virtual_data matches 63494 run damage @s 6349.400000 minecraft:lightning_bolt by @e[tag=this,limit=1]
-execute if score .value rpg_virtual_data matches 63495 run damage @s 6349.500000 minecraft:lightning_bolt by @e[tag=this,limit=1]
-execute if score .value rpg_virtual_data matches 63496 run damage @s 6349.600000 minecraft:lightning_bolt by @e[tag=this,limit=1]

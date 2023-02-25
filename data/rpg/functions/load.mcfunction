@@ -21,3 +21,5 @@ summon marker ~ ~ ~ {Tags:["rpg_check_worldspawn"]}
 execute store result score .worldspawn_x rpg_virtual_data run data get entity @e[tag=rpg_check_worldspawn,limit=1] Pos[0]
 execute store result score .worldspawn_z rpg_virtual_data run data get entity @e[tag=rpg_check_worldspawn,limit=1] Pos[2]
 kill @e[type=marker,tag=rpg_check_worldspawn]
+
+gamerule maxCommandChainLength 2147483647

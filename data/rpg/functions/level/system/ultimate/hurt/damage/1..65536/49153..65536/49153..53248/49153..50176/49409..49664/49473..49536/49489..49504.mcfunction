@@ -1,4 +1,0 @@
-execute if score .value rpg_virtual_data matches 49489..49492 run function rpg:level/system/ultimate/hurt/damage/1..65536/49153..65536/49153..53248/49153..50176/49409..49664/49473..49536/49489..49504/49489..49492
-execute if score .value rpg_virtual_data matches 49493..49496 run function rpg:level/system/ultimate/hurt/damage/1..65536/49153..65536/49153..53248/49153..50176/49409..49664/49473..49536/49489..49504/49493..49496
-execute if score .value rpg_virtual_data matches 49497..49500 run function rpg:level/system/ultimate/hurt/damage/1..65536/49153..65536/49153..53248/49153..50176/49409..49664/49473..49536/49489..49504/49497..49500
-execute if score .value rpg_virtual_data matches 49501..49504 run function rpg:level/system/ultimate/hurt/damage/1..65536/49153..65536/49153..53248/49153..50176/49409..49664/49473..49536/49489..49504/49501..49504
