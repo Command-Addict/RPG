@@ -11,6 +11,7 @@ execute store result score @s rpg_virtual_data run scoreboard players operation 
 function rpg:utils/get_level_by_distance
 
 scoreboard players operation @s rpg_entity_level = .value rpg_virtual_data
+execute if score .value rpg_virtual_data matches 0 run tag @s remove rpg_level_checked
 
 data merge block 0 0 0 {Text1:'["Level ",{"score":{"name": ".value","objective": "rpg_virtual_data"}}]'} 
 data modify entity @s CustomName set from block 0 0 0 Text1
